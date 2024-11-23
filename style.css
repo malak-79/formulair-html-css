@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: aliceblue;
+    color: black; 
+}
+
+h1, h2 {
+    color:rgb(10, 78, 117);
+    text-align: center;
+}
+
+header {
+    background-color: aliceblue ; 
+}
+
+section {
+    padding: 25px;
+    margin: 70px;
+    background-color: aliceblue;
+    box-shadow: 2px 4px 2px rgb(203, 225, 245) ;
+    border-radius: 70px; 
+}
+
+/* Vidéo */
+iframe {
+    display:block;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Formulaire */
+label {
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 5px 1px;
+    border: 1px solid rgb(33, 108, 151);
+    border-radius: 4px; 
+    font-size: 16px; 
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color:rgb(57, 101, 139);
+    color:white;
+    padding: 10px 20px;
+    border:1px solid rgb(7, 35, 97);
+    border-radius: 8px;
+    cursor: grab;
+    font-size: 20px;
+}
+/* Radio buttons */
+.radio-group {
+    display: flex;
+    gap: 1px;
+}

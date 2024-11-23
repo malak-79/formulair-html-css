@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription Étudiant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur la page d'inscription des étudiants</h1>
+    </header>
+
+    <section>
+        <h2>Comment s'inscrire ?</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KxwX76T1uMA?si=2lvR0KwSklMln-9x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Regardez la vidéo pour comprendre comment vous inscrire.</p>
+    </section>
+
+    <section >
+        <h2>Aperçu du formulaire d'inscription :</h2>
+        <!-- Image-->
+        <img src="https://th.bing.com/th/id/OIP.ZMqZUBQPJRiYOryeS7Gr6QAAAA?rs=1&pid=ImgDetMain" width="400" height="300" />
+    </section>
+<!-- formulaire -->
+    <section >
+        <h2>Formulaire d'inscription</h2>
+        <form >
+            <label for="nom"><strong>Nom :</strong></label>
+            <input id="nom" type="text">
+            <br></br>
+            <label for="prénom"><strong>Prénom :</strong></label>
+            <input id="prénom" type="text">
+            <br></br>
+            <label for="email"><strong>Email :</strong></label>
+            <input id="email" type="email">
+            <br></br>
+            <label for="numéro"><strong>Numéro :</strong></label>
+            <input id="numéro" type="text">
+            <br></br>
+            <label for="niveau"><strong>Niveau d'étude :</strong></label>
+            <select id="niveau" name="niveau">
+                <option value="1ére année">1ére année</option>
+                <option value="2ére année">2ére année</option>
+                <option value="3ére année">3ére année</option>
+            </select>
+            <br></br>
+            <div class="form-group">
+                <label for="genre"><strong>Genre :</strong></label>
+                <div class="radio-group">
+                    <label><input type="radio" name="genre" value="femme" checked>Femme</label>
+                    <label><input type="radio" name="genre" value="homme">Homme</label>
+                </div>
+            </div>
+            <br>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+        </form>
+    </section>
+</body>
+</html>
